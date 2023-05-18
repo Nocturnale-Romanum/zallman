@@ -2,8 +2,10 @@
 Forked version of the Zallman Caps with AE ligature, specifically for NR
 
 Here is the way I installed it on nocturnale.marteo.fr :
+
 put ZallmanCaps.afm, ZallmanCaps.ttf and ZallmanCaps.pfb in some folder and cd into it.
 
+```sh
 find / | grep Zallman
   /usr/local/share/fonts/ZallmanCaps.TTF
   /usr/share/doc/texlive-doc/fonts/initials/Zallman.tex
@@ -20,3 +22,4 @@ mv /usr/share/texlive/texmf-dist/fonts/type1/public/initials/Zallman.pfb /usr/sh
 mv ZallmanCaps.pfb /usr/share/texlive/texmf-dist/fonts/type1/public/initials/Zallman.pfb
 mv /usr/local/share/fonts/ZallmanCaps.TTF /usr/local/share/fonts/ZallmanCaps.TTF.restoreme
 mv ZallmanCaps.ttf /usr/local/share/fonts/ZallmanCaps.TTF
+```
